@@ -1,13 +1,4 @@
-# ELEC5620M Mini Project Group 19
 # Cortex-A9 HAL DSP System with NEON SIMD Acceleration
-
-| MEMBERS |
-|----------|
-| Aarush Arya - @aaruche|
-| Rachitha Madhavan - @rachitha-madhavan |
-| Sanjukta Aparna Venkatachalam - @Sanjukta-23 |
-| Srivisweswara Mohan Santhi - @vicXsri |
-
 
 | Item                  | Description                                                                 |
 | --------------------- | --------------------------------------------------------------------------- |
