@@ -1,0 +1,142 @@
+/*
+ * address.h
+ *
+ *  Created on: 31-Mar-2026
+ *      Author: Srivisweswara Mohan Santhi
+ */
+
+#ifndef INC_ADDRESS_H_
+#define INC_ADDRESS_H_
+
+#include "main.h"
+
+/*Core Peripherals Address Start*/
+
+#define MPU_BASE			0xFFFE0000UL
+
+#define SCU_BASE			(MPU_BASE + 0xC000UL)
+#define GIC_BASE			(MPU_BASE + 0xC100UL) // Interrupt interface register
+#define GLOBALTIMER_BASE	(MPU_BASE + 0xC200UL)
+#define PRIVATETIMER_BASE	(MPU_BASE + 0xC600UL)
+#define IRQDIS_BASE			(MPU_BASE + 0xD000UL) // Interrupt Distributor register
+
+/*Core Peripherals Address End*/
+
+/*MPU L2 Cache Address Start*/
+
+#define MPUL2_BASE			0xFFFEF000UL
+
+#define OCRAM_BASE			(SPIM_BASE + 0xFF000UL)
+
+/*MPU L2 Cache Address End*/
+
+
+/*Peripheral Address Start*/
+
+#define PERIPH_BASE			0xFF000000UL
+
+#define GPIO_BASE			(PERIPH_BASE + 0x700000UL)
+
+#define L3_BASE				(PERIPH_BASE + 0x800000UL)
+
+#define NANDDATA_BASE		(PERIPH_BASE + 0x900000UL)
+
+#define QSPIDATA_BASE		(PERIPH_BASE + 0xA00000UL)
+
+#define USB_BASE			(PERIPH_BASE + 0xB00000UL)
+
+#define UART_BASE			(PERIPH_BASE + 0xC00000UL)
+
+#define WATCHDOG_BASE		(PERIPH_BASE + 0xD00000UL)
+
+#define DMA_BASE			(PERIPH_BASE + 0xE00000UL)
+
+#define SPIM_BASE			(PERIPH_BASE + 0xF00000UL)
+
+
+
+#define EMAC0_BASE			GPIO_BASE
+#define EMAC1_BASE			(GPIO_BASE + 0x2000UL)
+
+#define USB0_BASE			USB_BASE
+#define USB1_BASE			(USB_BASE + 0x40000UL)
+
+#define NAND_BASE			(USB_BASE + 0x80000UL)
+
+#define FPGAMGRD_BASE		(USB_BASE + 0x90000UL)
+
+
+#define SDMMC_BASE			(GPIO_BASE + 0x4000UL)
+
+#define QSPI_BASE			(GPIO_BASE + 0x5000UL)
+
+#define FPGAMNG_BASE		(GPIO_BASE + 0x6000UL)
+
+#define ACPID_BASE			(GPIO_BASE + 0x7000UL)
+
+#define GPIO0_BASE			(GPIO_BASE + 0x8000UL)
+#define GPIO1_BASE			(GPIO_BASE + 0x9000UL)
+#define GPIO2_BASE			(GPIO_BASE + 0xA000UL)
+
+
+#define CAN0_BASE			UART_BASE
+#define CAN1_BASE			(UART_BASE + 0x1000UL)
+
+#define UART0_BASE			(UART_BASE + 0x2000UL)
+#define UART1_BASE			(UART_BASE + 0x3000UL)
+
+#define I2C0_BASE			(UART_BASE + 0x4000UL)
+#define I2C1_BASE			(UART_BASE + 0x5000UL)
+#define I2C2_BASE			(UART_BASE + 0x6000UL)
+#define I2C3_BASE			(UART_BASE + 0x7000UL)
+
+#define TIM0_BASE			(UART_BASE + 0x8000UL)
+#define TIM1_BASE			(UART_BASE + 0x9000UL)
+#define TIM2_BASE			WATCHDOG_BASE
+#define TIM3_BASE			(WATCHDOG_BASE + 0x1000UL)
+
+#define SDRAM_BASE			(UART_BASE + 0x20000)
+
+#define WATCHDOG0_BASE		(WATCHDOG_BASE + 0x2000UL)
+#define WATCHDOG1_BASE		(WATCHDOG_BASE + 0x3000UL)
+
+#define CLK_BASE			(WATCHDOG_BASE + 0x4000UL)
+
+#define RSTMGR_BASE			(WATCHDOG_BASE + 0x5000UL)
+
+#define SYSMGR_BASE			(WATCHDOG_BASE + 0x8000UL)
+
+#define DMAS_BASE			DMA_BASE
+#define DMANS_BASE			(DMA_BASE + 0x1000UL)
+
+#define SPIS0_BASE			(DMA_BASE + 0x2000UL)
+#define SPIS1_BASE			(DMA_BASE + 0x3000UL)
+
+#define SPIM0_BASE			SPIM_BASE
+#define SPIM1_BASE			(SPIM_BASE + 0x1000UL)
+
+#define SCANMGR_BASE		(SPIM_BASE + 0x2000UL)
+
+#define BOOTROM_BASE		(SPIM_BASE + 0xD0000UL)
+
+/*Peripheral Address End*/
+
+
+
+/*FPGA IP BLOCK Address Start*/
+
+#define FPGA_IP_BASE	0xFF200000UL
+
+#define LEDIP_BASE		(FPGA_IP_BASE + 0x00U)
+#define HEX3HEX0IP_BASE	(FPGA_IP_BASE + 0x20U)
+#define HEX5HEX4IP_BASE	(FPGA_IP_BASE + 0x30U)
+#define SWITCHIP_BASE	(FPGA_IP_BASE + 0x40U)
+#define BUTTONIP_BASE	(FPGA_IP_BASE + 0x50U)
+#define JP1IP_BASE		(FPGA_IP_BASE + 0x60U)
+#define JP2IP_BASE		(FPGA_IP_BASE + 0x70U)
+#define CODECIP_BASE	(FPGA_IP_BASE + 0x3040U)
+
+/*FPGA IP BLOCK Address End*/
+
+
+#endif /* INC_ADDRESS_H_ */
