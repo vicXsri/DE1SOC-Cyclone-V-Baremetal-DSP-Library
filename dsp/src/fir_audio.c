@@ -2,7 +2,8 @@
  * fir_audio.c
  *
  *  Created on: 15-Apr-2026
- *      Author: Rachita Madavan
+ *      Author: Srivisweswara Mohan Santhi
+ *      		Rachita Madavan
  */
 
 #include "fir_audio.h"

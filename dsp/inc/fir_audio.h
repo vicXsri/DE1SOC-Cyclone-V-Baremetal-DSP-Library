@@ -2,7 +2,8 @@
  * fir_audio.h
  *
  *  Created on: 15-Apr-2026
- *      Author: Rachita Madavan
+ *      Author: Srivisweswara Mohan Santhi
+ *      		Rachita Madavan
  */
 
 #ifndef DSP_INC_FIR_AUDIO_H_

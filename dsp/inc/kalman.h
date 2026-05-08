@@ -2,7 +2,8 @@
  * kalman_sensor.h
  *
  *  Created on: 22-Apr-2026
- *      Author: Rachitha Madhavan
+ *      Author: Srivisweswara Mohan Santhi
+ *      		Rachita Madavan
  */
 
 #ifndef DSP_INC_KALMAN_SENSOR_H_

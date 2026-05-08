@@ -3,7 +3,8 @@
  * fft_sdr.c
  *
  *  Created on: 10-Apr-2026
- *      Author: Aarush Arya
+ *      Author: Srivisweswara Mohan Santhi
+ *      		Aarush Arya
  */
 
 #include "fft_sdr.h"

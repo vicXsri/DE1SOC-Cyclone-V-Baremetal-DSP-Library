@@ -2,7 +2,8 @@
  * fft_sdr.h
  *
  *  Created on: 10-Apr-2026
- *      Author: Aarush Arya
+ *      Authors: Srivisweswara Mohan Santhi
+ *      	     Aarush Arya
  */
 
 #ifndef DSP_INC_FFT_SDR_H_

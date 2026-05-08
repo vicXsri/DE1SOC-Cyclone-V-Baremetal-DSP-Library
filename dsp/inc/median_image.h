@@ -2,7 +2,8 @@
  * median_image.h
  *
  *  Created on: 29-Apr-2026
- *      Author: Sanjukta Aparna Venkatachalam
+ *      Author: Srivisweswara Mohan Santhi
+ *      		Sanjukta Aparna Venkatachalam
  */
 
 #ifndef DSP_INC_MEDIAN_IMAGE_H_

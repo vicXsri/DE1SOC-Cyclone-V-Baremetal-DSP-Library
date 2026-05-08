@@ -2,7 +2,8 @@
  * fir_sdr.h
  *
  *  Created on: 13-Apr-2026
- *      Author: Sanjukta Aparna Venkatachalam
+ *      Author: Srivisweswara Mohan Santhi
+ *      		Sanjukta Aparna Venkatachalam
  */
 
 #ifndef DSP_INC_FIR_SDR_H_

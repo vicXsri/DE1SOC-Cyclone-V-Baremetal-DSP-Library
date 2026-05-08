@@ -2,7 +2,8 @@
  * median_image.c
  *
  *  Created on: 29-Apr-2026
- *      Author: Sanjukta Aparna Venkatachalam
+ *      Author: Srivisweswara Mohan Santhi
+ *      		Sanjukta Aparna Venkatachalam
  */
 
 #include "median_image.h"

@@ -2,7 +2,8 @@
  * fir_SDC.c
  *
  *  Created on: 13-Apr-2026
- *      Author: Sanjukta Aparna Venkatachalam
+ *      Author: Srivisweswara Mohan Santhi
+ *      		Sanjukta Aparna Venkatachalam
  */
 
 #include "fir_sdr.h"

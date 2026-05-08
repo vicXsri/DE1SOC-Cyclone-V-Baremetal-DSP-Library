@@ -2,7 +2,8 @@
  * kalman_sensor.c
  *
  *  Created on: 22-Apr-2026
- *      Author: Rachitha Madhavan
+ *      Author: Srivisweswara Mohan Santhi
+ *      		Rachita Madavan
  */
 
 #include "kalman.h"
