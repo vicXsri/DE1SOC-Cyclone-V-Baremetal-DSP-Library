@@ -13,7 +13,7 @@
 
 ## 1. Project Overview
 
-This project is a bare-metal embedded DSP application developed for the DE1-SoC platform. The system uses the ARM Cortex-A9 processor inside the Cyclone V SoC to perform audio, SDR, image and sensor processing without an operating system.
+This project is a bare-metal embedded DSP application developed for the DE1-SoC platform. This system uses the ARM Cortex-A9 processor inside the Cyclone V SoC to perform audio, SDR, image and sensor processing without an operating system.
 
 The application combines low-level hardware control with optimized signal-processing algorithms. It directly accesses HPS peripheral registers, communicates with FPGA-mapped IP blocks, reads and writes files using FatFs, controls external devices through I2C and accelerates computationally expensive algorithms using ARM NEON SIMD intrinsics with vector arithmetics.
 
